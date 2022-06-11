@@ -1,0 +1,55 @@
+.experince {
+	background: linear-gradient(149.47deg,
+			rgba(184, 67, 118, 0.9) 5.08%,
+			rgba(162, 51, 125, 0.9) 50.65%,
+			rgba(137, 31, 127, 0.9) 75.66%);
+	padding: 40px 110px;
+
+	hr {
+		border: 1px solid #FFFFFF
+	}
+
+	span {
+		font-size: 24px;
+		font-weight: 700;
+		color: #ffffff;
+		margin: 0;
+		text-align: left;
+	}
+
+	p {
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 19px;
+		color: #ffffffa0;
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+
+		.footer {
+			display: flex;
+			justify-content: center;
+
+			span {
+				font-family: Sacramento;
+				font-size: 64px;
+				font-weight: 400;
+				margin-top: 115px;
+			}
+		}
+
+		.first-section {
+			display: flex;
+			gap: 50px;
+
+			span {
+				font-size: 20px;
+				font-weight: 700;
+				line-height: 23px;
+			}
+		}
+	}
+}

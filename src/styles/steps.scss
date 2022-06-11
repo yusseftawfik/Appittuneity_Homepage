@@ -1,0 +1,108 @@
+.steps {
+	padding: 90px;
+	background: #ffffff;
+	position: relative;
+
+	.middle-line {
+		height: 142px;
+		width: 1075px;
+		border-radius: 100px;
+		background: linear-gradient(149.47deg,
+				rgba(39, 102, 223, 0.9) 5.08%,
+				rgba(68, 66, 179, 0.9) 50.65%,
+				rgba(95, 39, 179, 0.9) 75.66%);
+		box-shadow: 10px 10px 20px 0px #00000033;
+		position: absolute;
+		top: 23.5%;
+	}
+
+	.step-container {
+		display: flex;
+		justify-content: center;
+		gap: 25px;
+	}
+
+	.footer {
+		padding: 50px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+		justify-content: center;
+
+		p {
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 19px;
+			text-align: center;
+			color: #848484;
+		}
+	}
+}
+
+.step {
+	width: 275px;
+	border-radius: 50px;
+	overflow-x: hidden;
+	box-shadow: 8px 7px 40px 0px #00000026;
+	background: #fff;
+	z-index: 1;
+
+	.header {
+		border-radius: 50px 50px 0 0;
+		box-shadow: 11px 15px 50px 0px #00000033;
+		&:nth-child(1){
+					background: linear-gradient(149.47deg,
+								rgba(184, 67, 118, 0.8) 5.08%,
+								rgba(162, 51, 125, 0.8) 50.65%,
+								rgba(137, 31, 127, 0.8) 75.66%);
+		}
+		&:nth-child(2){
+					background: linear-gradient(149.47deg,
+								rgba(20, 170, 105, 0.8) 5.08%,
+								rgba(25, 145, 128, 0.8) 50.65%,
+								rgba(33, 127, 149, 0.8) 75.66%);
+		}
+		&:nth-child(3){
+					background: linear-gradient(166.2deg,
+								rgba(51, 145, 255, 0.8) 5.77%,
+								rgba(62, 151, 255, 0.8) 44.34%,
+								rgba(32, 159, 231, 0.8) 86.27%);
+		}
+		height: 53px;
+	}
+
+	.data {
+		display: flex;
+		justify-content: space-between;
+
+		.number {
+			font-size: 193px;
+			font-weight: 700;
+			line-height: 175px;
+			background: -webkit-linear-gradient(173deg, #436bd5 31.31%, #6445b6 84.81%);
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+			margin-inline-start: -16px;
+		}
+
+		.description {
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 19px;
+			letter-spacing: 0em;
+			text-align: left;
+			padding: 20px 0;
+		}
+	}
+
+	.title {
+		font-family: Italiana;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 28px;
+		text-align: center;
+	}
+
+}

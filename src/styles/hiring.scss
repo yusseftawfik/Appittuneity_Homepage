@@ -1,0 +1,72 @@
+.hiring {
+	background: linear-gradient(149.47deg,
+			rgba(39, 102, 223, 0.9) 5.08%,
+			rgba(68, 66, 179, 0.9) 50.65%,
+			rgba(95, 39, 179, 0.9) 75.66%);
+	box-shadow: 10px 10px 20px 0px #00000033;
+	padding-inline: 80px;
+	padding-block: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+
+	h1 {
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+		color: #fff;
+		margin: 0;
+	}
+
+	main {
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		justify-content: space-between;
+
+		.data-holder {
+			height: 260px;
+			width: 180px;
+			padding: 10px;
+			border-radius: 30px;
+			border: 2px solid #ffffff30;
+			display: flex;
+			justify-content: space-evenly;
+			flex-direction: column;
+			align-items: center;
+			background: transparent;
+
+			&:hover {
+				transform: translateY(-20px);
+				border: 2px solid #ffffff;
+				transition-duration: 0.4s;
+
+				img,
+				span {
+					opacity: 1;
+				}
+			}
+
+			img {
+				opacity: 0.25;
+			}
+
+			span {
+				font-size: 20px;
+				font-weight: 500;
+				line-height: 23px;
+				text-align: center;
+				opacity: 0.25;
+				color: #fff;
+			}
+		}
+	}
+
+	p {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 19px;
+		text-align: left;
+		color: rgba(255, 255, 255, 0.5);
+	}
+}
