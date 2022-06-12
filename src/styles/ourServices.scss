@@ -13,7 +13,6 @@
 
 	main {
 		display: flex;
-		justify-content: center;
 		flex-flow: row wrap;
 		justify-content: space-between;
 		padding-inline: 100px;
@@ -67,6 +66,16 @@
 			border-radius: 25px;
 			align-items: center;
 			transition-duration: 1s;
+		}
+	}
+}
+
+@media screen and (max-width : 1200px) {
+
+	.our-services {
+		main {
+			justify-content: center;
+			padding-inline: 30px;
 		}
 	}
 }

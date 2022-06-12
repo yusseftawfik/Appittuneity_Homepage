@@ -1,7 +1,4 @@
 .ads {
-	left: 0px;
-	top: 0px;
-	border-radius: 0px;
 	background: linear-gradient(149.47deg,
 			rgba(39, 102, 223, 0.9) 5.08%,
 			rgba(68, 66, 179, 0.9) 50.65%,
@@ -28,28 +25,38 @@
 		span:nth-child(1) {
 			font-size: 20px;
 			font-weight: 600;
-			line-height: 23px;
-			height: 78px;
-			width: 326px;
 		}
 
 		span:nth-child(2) {
 			font-size: 16px;
 			font-weight: 300;
-			line-height: 19px;
-			height: 69px;
-			width: 684px;
 		}
 	}
 
 	div:nth-child(2) {
 		font-size: 12px;
 		font-weight: 300;
-		line-height: 14px;
 		text-align: left;
 		color: #fff;
 		display: flex;
 		align-items: flex-end;
 	}
 
+}
+
+@media screen and (max-width : 1200px) {
+	.ads {
+		padding: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+
+		div {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+	}
 }
