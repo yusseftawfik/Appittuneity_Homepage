@@ -8,26 +8,25 @@
 	main {
 		color: #fff;
 		display: flex;
+		align-items: center;
 		padding: 135px;
 
 		.titles {
 			display: flex;
 			flex-direction: column;
-			width: 500px;
+			width: 37vw;
 
 			h1 {
-				font-size: 50px;
+				font-size: 5vw;
 				font-weight: 900;
-				line-height: 59px;
 				text-align: left;
 			}
 
 			h6 {
-				font-size: 20px;
+				font-size: 2vw;
 				font-weight: 100;
-				line-height: 23px;
 				text-align: left;
-				width: 400px;
+				width: 40vw;
 			}
 		}
 	}
@@ -36,7 +35,7 @@
 		display: flex;
 		justify-content: space-between;
 		color: #989898;
-		padding: 100px;
+		padding: 175px 100px 0px;
 
 		p {
 			padding: 35px;
@@ -46,16 +45,14 @@
 		}
 
 		p:nth-child(1) {
-			font-size: 20px;
+			font-size: 2.5vw;
 			font-weight: 600;
-			line-height: 23px;
 			text-align: center;
 		}
 
 		p:nth-child(2) {
-			font-size: 16px;
+			font-size: 2vw;
 			font-weight: 300;
-			line-height: 19px;
 			text-align: left;
 		}
 	}
@@ -68,18 +65,18 @@
 }
 
 .navbar {
-	background: #00000010 !important;
+	background: #00000050 !important;
 	color: #fff;
 
-	div {
-		display: flex;
-		justify-content: space-between;
-	}
-
 	li {
-		font-size: 12px;
+		font-size: 1.2vw;
 		font-weight: 400;
 	}
+
+	.offcanvas {
+		align-items: flex-end;
+	}
+
 }
 
 .services-map {
@@ -95,8 +92,8 @@
 
 		div:nth-child(1) {
 			border-radius: 250px 25px 25px 25px;
-			height: 261px;
-			width: 262px;
+			height: 48vh;
+			width: 20vw;
 			background: linear-gradient(145.09deg,
 					rgba(100, 100, 100, 0.88) 30.16%,
 					rgba(100, 100, 100, 0.88) 50.04%,
@@ -106,8 +103,8 @@
 
 		div:nth-child(2) {
 			border-radius: 25px 25px 25px 250px;
-			height: 161px;
-			width: 144px;
+			height: 23vh;
+			width: 10vw;
 			background: linear-gradient(137.58deg,
 					#9b9999 11.38%,
 					rgba(130, 130, 130, 0.79) 50.04%,
@@ -121,8 +118,8 @@
 
 		div {
 			box-shadow: 9px 10px 40px 0px #00000066;
-			height: 428px;
-			width: 244px;
+			height: 73vh;
+			width: 20vw;
 			backdrop-filter: blur(10px);
 			border-radius: 25px 25px 250px 25px;
 			position: absolute;
@@ -130,16 +127,16 @@
 
 			span {
 				text-shadow: 1px 2px 4px 0px #00000040;
-				font-size: 20px;
+				font-size: 1.7vw;
 				font-weight: 600;
-				line-height: 23px;
 				text-align: left;
 			}
 
 			&:hover {
-				z-index: 1;
-				// transform: translate();
-				transition-duration: 0.2s;
+				transform: translateX(-20.75vw);
+				transition-duration: 1s;
+				transform-origin: center left;
+				border-radius: 25px;
 			}
 		}
 
@@ -151,8 +148,8 @@
 		}
 
 		div:nth-child(2) {
-			top: 80px;
-			right: -255px;
+			top: 15vh;
+			right: -21vw;
 			background: linear-gradient(149.47deg,
 					rgba(184, 67, 118, 0.8) 5.08%,
 					rgba(162, 51, 125, 0.8) 50.65%,
@@ -160,8 +157,8 @@
 		}
 
 		div:nth-child(3) {
-			top: 160px;
-			right: -267px;
+			top: 30vh;
+			right: -22vw;
 			background: linear-gradient(149.47deg,
 					rgba(20, 170, 105, 0.8) 5.08%,
 					rgba(25, 145, 128, 0.8) 50.65%,
@@ -169,12 +166,111 @@
 		}
 
 		div:nth-child(4) {
-			top: 240px;
-			right: -280px;
+			top: 45vh;
+			right: -23vw;
 			background: linear-gradient(149.47deg,
 					rgba(39, 102, 223, 0.8) 5.08%,
 					rgba(68, 66, 179, 0.8) 50.65%,
 					rgba(95, 39, 179, 0.8) 75.66%);
 		}
+	}
+}
+
+@media screen and (max-width : 1200px) {
+	.offcanvas {
+		align-items: center !important;
+	}
+
+	.offcanvas.offcanvas-end {
+		background: linear-gradient(255.37deg, #000000 14.38%, #262626 67.97%);
+
+		.offcanvas-header {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.offcanvas-body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+
+			li {
+				font-size: 25px;
+				padding: 0 !important;
+				text-align: center;
+			}
+		}
+	}
+
+	.main-page {
+		main {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 50px;
+
+			.titles {
+				width: auto;
+
+				h1,
+				h6 {
+					text-align: center;
+					width: 60vw;
+				}
+			}
+		}
+	}
+
+	.services-map {
+		.left {
+			div:nth-child(1) {
+				height: 15vh;
+				width: 20vw;
+			}
+
+			div:nth-child(2) {
+				height: 10vh;
+				width: 13vw;
+			}
+		}
+
+		.right {
+			div {
+				height: 33vh;
+			}
+
+			div:nth-child(2) {
+				top: 4vh;
+				right: -21vw;
+			}
+
+			div:nth-child(3) {
+				top: 8vh;
+				right: -22vw;
+			}
+
+			div:nth-child(4) {
+				top: 12vh;
+				right: -23vw;
+			}
+		}
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+		padding: 100px 20px 0px !important;
+
+		p {
+			padding: 10px !important;
+			text-align: center !important;
+		}
+	}
+
+	.logo {
+		justify-content: center !important;
 	}
 }

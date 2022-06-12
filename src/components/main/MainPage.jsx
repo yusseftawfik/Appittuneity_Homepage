@@ -13,7 +13,9 @@ const MainPage = () => {
 					<h1>We know what you are looking for</h1>
 					<h6>We have +10 years experience working in Europe</h6>
 				</div>
-				<ServicesMap />
+				<div>
+					<ServicesMap />
+				</div>
 			</main>
 			<footer>
 				<p>

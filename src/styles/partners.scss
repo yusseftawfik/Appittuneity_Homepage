@@ -116,6 +116,7 @@
 	justify-content: space-evenly;
 	align-items: center;
 	padding: 25px;
+	backdrop-filter: blur(10px);
 
 	.main-icon {
 		display: flex;
