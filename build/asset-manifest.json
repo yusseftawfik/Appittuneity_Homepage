@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Appittuneity_Homepage/static/css/main.3ca7d85b.css",
-    "main.js": "/Appittuneity_Homepage/static/js/main.34091721.js",
+    "main.css": "/Appittuneity_Homepage/static/css/main.edf5e092.css",
+    "main.js": "/Appittuneity_Homepage/static/js/main.2faad0f2.js",
     "static/media/eye-study.svg": "/Appittuneity_Homepage/static/media/eye-study.cae6045b401b1ee7e748f1303a61f0d1.svg",
     "static/media/elexir.svg": "/Appittuneity_Homepage/static/media/elexir.9df5e49d7b16f24164284e286654dcef.svg",
     "static/media/wordpress.svg": "/Appittuneity_Homepage/static/media/wordpress.90ca43069b48085339fe5bc851015011.svg",
@@ -44,11 +44,11 @@
     "static/media/twitter.svg": "/Appittuneity_Homepage/static/media/twitter.5a7f8379529aa197a4ef5f5158870735.svg",
     "static/media/instagram.svg": "/Appittuneity_Homepage/static/media/instagram.1f8ebf319f789d24884dfe4b3aa86ed4.svg",
     "static/media/facebook.svg": "/Appittuneity_Homepage/static/media/facebook.05debd2f8b5e7bb951f1bde1f6f7e15c.svg",
-    "main.3ca7d85b.css.map": "/Appittuneity_Homepage/static/css/main.3ca7d85b.css.map",
-    "main.34091721.js.map": "/Appittuneity_Homepage/static/js/main.34091721.js.map"
+    "main.edf5e092.css.map": "/Appittuneity_Homepage/static/css/main.edf5e092.css.map",
+    "main.2faad0f2.js.map": "/Appittuneity_Homepage/static/js/main.2faad0f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ca7d85b.css",
-    "static/js/main.34091721.js"
+    "static/css/main.edf5e092.css",
+    "static/js/main.2faad0f2.js"
   ]
 }
