@@ -96,3 +96,11 @@
 		padding: 5px;
 	}
 }
+
+@media screen and (max-width : 1200px) {
+	.why {
+		main {
+			justify-content: center;
+		}
+	}
+}
