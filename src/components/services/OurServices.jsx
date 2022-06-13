@@ -60,14 +60,14 @@ const OurServices = () => {
 			icon: aLMLModules,
 		},
 	];
+
 	return (
 		<div className="our-services">
 			<h1 className="m-0">OUR SERVICES</h1>
 			<main>
 				{data.map((data) => (
-					<div className="data-holder">
+					<div className="data-holder" data-aos="flip-up">
 						<span>{data.name}</span>
-						<hr />
 						<span>{data.description}</span>
 						<img src={data.icon} alt="services-icon" width="45" height="45" />
 					</div>
