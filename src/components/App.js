@@ -40,9 +40,9 @@ function App () {
       <Why />
       <FAQ />
       <Hiring />
-      {/* <FUT /> */}
+      <FUT />
       <Experince />
-      {/* <Partners /> */}
+      <Partners />
       <Footer />
     </>
   );

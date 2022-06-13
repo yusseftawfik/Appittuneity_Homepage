@@ -18,7 +18,7 @@ const FUT = () => {
 		<div className="fut">
 			<h1>Some Of our Frequently used technologies</h1>
 			<main>
-				<div className="icons">
+				<div className="icons" data-aos="zoom-in-up">
 					<img src={angular} alt="hiring-icon" width="45" height="45" />
 					<img src={woo} alt="hiring-icon" width="45" height="45" />
 					<img src={drupal} alt="hiring-icon" width="45" height="45" />
@@ -35,14 +35,6 @@ const FUT = () => {
 				<div className="hire">
 					<span>Hire php developer</span>, dolor sit amet, consectetur adipiscing elit, sed
 					do eiusmod tempor incididunt ut labore et dolore magna aliqua...
-				</div>
-				<div className="footer">
-					<hr />
-					<div>
-						<div>Frontend</div>
-						<div>Backend</div>
-						<div>AI ML</div>
-					</div>
 				</div>
 			</main>
 		</div>

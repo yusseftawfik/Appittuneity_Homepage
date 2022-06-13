@@ -29,7 +29,7 @@ const Partners = () => {
 			<div className="partners-container">
 				{
 					data.map(data =>
-						<Partner data={data} />
+						<Partner data-aos="zoom-out" data={data} />
 					)
 				}
 			</div>

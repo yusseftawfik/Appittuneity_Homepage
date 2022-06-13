@@ -29,25 +29,6 @@
 			color: #848484;
 			font-weight: 300;
 		}
-
-		.footer {
-			padding-inline: 400px;
-
-			div {
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-				font-size: 20px;
-				font-weight: 500;
-				line-height: 23px;
-				color: #9898983a;
-
-				&:hover {
-					color: #989898;
-					transition-duration: .3s;
-				}
-			}
-		}
 	}
 
 	.icons {
