@@ -66,7 +66,7 @@ const OurServices = () => {
 			<h1 className="m-0">OUR SERVICES</h1>
 			<main>
 				{data.map((data) => (
-					<div className="data-holder" data-aos="flip-up">
+					<div className="data-holder" data-aos="zoom-out-up">
 						<span>{data.name}</span>
 						<span>{data.description}</span>
 						<img src={data.icon} alt="services-icon" width="45" height="45" />

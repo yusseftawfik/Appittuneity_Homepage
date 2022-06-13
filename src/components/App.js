@@ -35,15 +35,15 @@ function App () {
     <>
       <MainPage />
       <OurServices />
-      {/* <Ads />
+      <Ads />
       <Steps />
       <Why />
       <FAQ />
       <Hiring />
-      <FUT />
+      {/* <FUT /> */}
       <Experince />
-      <Partners />
-      <Footer /> */}
+      {/* <Partners /> */}
+      <Footer />
     </>
   );
 }

@@ -38,7 +38,7 @@ const Why = () => {
 		<div className="why">
 			<h1 className="header">Why Choose appituneity?</h1>
 			<main>
-				{data.map((data) => (
+				{data.map((data, index) => (
 					<Cards data={data} />
 				))}
 			</main>

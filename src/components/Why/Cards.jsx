@@ -3,7 +3,7 @@ import '../../styles/why.scss';
 
 const Cards = ({ data }) => {
 	return (
-		<div className='cards'>
+		<div className='cards' data-aos="zoom-out-up">
 			<div className='hov'>
 				<img src={data.icon} alt="services-icon" width="80" height="80" />
 				<div className='name'>
