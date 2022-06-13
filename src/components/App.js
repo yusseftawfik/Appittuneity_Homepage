@@ -14,7 +14,7 @@ function App () {
   return (
     <>
       <MainPage />
-      <OurServices />
+      {/* <OurServices />
       <Ads />
       <Steps />
       <Why />
@@ -23,7 +23,7 @@ function App () {
       <FUT />
       <Experince />
       <Partners />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }

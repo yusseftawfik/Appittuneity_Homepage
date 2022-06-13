@@ -9,7 +9,7 @@
 	justify-content: center;
 	gap: 50px;
 	padding-block: 135px 35px;
-	padding-inline: 135px;
+	padding-inline: 100px;
 
 	main {
 		color: #fff;
@@ -24,12 +24,14 @@
 				font-size: 4vw;
 				font-weight: 900;
 				text-align: left;
+				text-shadow: 1px 3px 2px hsla(0, 0%, 0%, .25);
 			}
 
 			h6 {
 				font-size: 1.5vw;
 				font-weight: 100;
 				text-align: left;
+				text-shadow: 1px 1px 2px hsla(0, 0%, 0%, .25);
 			}
 		}
 	}
@@ -37,15 +39,11 @@
 	footer {
 		display: flex;
 		justify-content: space-between;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
 		color: #989898;
-		margin-top: -1000px;
-
-		p {
-			padding: 10px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
+		margin-top: -950px !important;
 
 		p:nth-child(1) {
 			font-size: 1.25em;
@@ -56,8 +54,12 @@
 		p:nth-child(2) {
 			font-size: .85em;
 			font-weight: 300;
-			text-align: left;
+			text-align: center;
 		}
+	}
+
+	.services-holder {
+		margin-right: 30px;
 	}
 
 	.logo {
@@ -68,6 +70,7 @@
 }
 
 .navbar {
+	backdrop-filter: blur(10px);
 	background: #00000050 !important;
 	color: rgba(255, 255, 255, 0.700);
 
@@ -84,6 +87,7 @@
 
 	.offcanvas {
 		align-items: flex-end;
+		backdrop-filter: none;
 	}
 
 }
@@ -97,6 +101,14 @@
 		flex-direction: column;
 		align-items: flex-end;
 		gap: 10px;
+
+		div {
+			&:hover {
+				transform: scale(1.05, 1.05);
+				transition-timing-function: ease-in;
+				transition-duration: .2s;
+			}
+		}
 
 		div:nth-child(1) {
 			border-radius: 250px 25px 25px 25px;
@@ -134,14 +146,15 @@
 			padding: 20px;
 
 			span {
-				text-shadow: 1px 2px 4px 0px #00000040;
-				font-size: 2vw;
+				text-shadow: 1px 2px 2px #00000040;
+				font-size: x-large;
 				font-weight: 600;
 				text-align: left;
+				line-height: 0;
 			}
 
 			&:hover {
-				transform: translateX(-240px);
+				transform: translateX(-250px);
 				transition-duration: 1s;
 				transform-origin: center top;
 				border-radius: 25px 25px 25px 250px;
@@ -156,8 +169,8 @@
 		}
 
 		div:nth-child(2) {
-			top: -20%;
-			left: 15px;
+			top: -19.50%;
+			left: 5px;
 			background: linear-gradient(149.47deg,
 					rgba(184, 67, 118, 0.8) 5.08%,
 					rgba(162, 51, 125, 0.8) 50.65%,
@@ -165,8 +178,8 @@
 		}
 
 		div:nth-child(3) {
-			top: -40%;
-			left: 30px;
+			top: -39%;
+			left: 10px;
 			background: linear-gradient(149.47deg,
 					rgba(20, 170, 105, 0.8) 5.08%,
 					rgba(25, 145, 128, 0.8) 50.65%,
@@ -174,8 +187,8 @@
 		}
 
 		div:nth-child(4) {
-			top: -60%;
-			left: 45px;
+			top: -58.50%;
+			left: 15px;
 			background: linear-gradient(149.47deg,
 					rgba(39, 102, 223, 0.8) 5.08%,
 					rgba(68, 66, 179, 0.8) 50.65%,
@@ -185,6 +198,10 @@
 }
 
 @media screen and (max-width : 1200px) {
+	.navbar {
+		backdrop-filter: none !important;
+	}
+
 	.offcanvas {
 		align-items: center !important;
 	}
@@ -229,7 +246,8 @@
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			gap: 50px;
+			gap: 20px;
+			padding: 10px !important;
 
 			.titles {
 				width: auto;
@@ -239,20 +257,46 @@
 					text-align: center;
 					width: 60vw;
 				}
+
+				h1 {
+					font-size: xx-large;
+				}
+
+				h6 {
+					font-size: large;
+				}
 			}
+		}
+
+		footer {
+			display: flex;
+			flex-direction: column;
+			margin-top: -650px !important;
+
+			p:nth-child(1) {
+				font-size: small !important;
+			}
+
+			p:nth-child(2) {
+				font-size: xx-small !important;
+			}
+		}
+
+		.logo {
+			justify-content: center !important;
 		}
 	}
 
 	.services-map {
 		.left {
 			div:nth-child(1) {
-				height: 135px;
-				width: 135px;
+				height: 150px;
+				width: 150px;
 			}
 
 			div:nth-child(2) {
-				height: 90px;
-				width: 70px;
+				height: 110px;
+				width: 90px;
 			}
 		}
 
@@ -261,28 +305,16 @@
 				height: 270px;
 				width: 155px;
 
+				span {
+					font-size: medium;
+				}
+
 				&:hover {
-					transform: translateX(-145px);
+					transform: translateX(-155px);
 				}
 			}
 
 		}
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		padding: 20px;
-		font-size: 2vw;
-		margin-top: -700px !important;
-
-		p {
-			text-align: center !important;
-		}
-	}
-
-	.logo {
-		justify-content: center !important;
 	}
 }
 

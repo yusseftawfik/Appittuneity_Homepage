@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Appittuneity_Homepage/static/css/main.d9584e98.css",
-    "main.js": "/Appittuneity_Homepage/static/js/main.2faad0f2.js",
+    "main.css": "/Appittuneity_Homepage/static/css/main.953b1cfa.css",
+    "main.js": "/Appittuneity_Homepage/static/js/main.0ebdf220.js",
     "static/media/eye-study.svg": "/Appittuneity_Homepage/static/media/eye-study.cae6045b401b1ee7e748f1303a61f0d1.svg",
     "static/media/elexir.svg": "/Appittuneity_Homepage/static/media/elexir.9df5e49d7b16f24164284e286654dcef.svg",
     "static/media/wordpress.svg": "/Appittuneity_Homepage/static/media/wordpress.90ca43069b48085339fe5bc851015011.svg",
@@ -40,17 +40,17 @@
     "static/media/logo-white.svg": "/Appittuneity_Homepage/static/media/logo-white.4fdc19a0657a1e657b9a5963f636a805.svg",
     "static/media/double-arrow.svg": "/Appittuneity_Homepage/static/media/double-arrow.8d4d4874e25d63023d3be4977d51095d.svg",
     "static/media/logo-black.svg": "/Appittuneity_Homepage/static/media/logo-black.a024d7fed96e506fc002.svg",
-    "static/media/close.svg": "/Appittuneity_Homepage/static/media/close.84af661ff948a7abad7f.svg",
     "index.html": "/Appittuneity_Homepage/index.html",
     "static/media/twitter.svg": "/Appittuneity_Homepage/static/media/twitter.5a7f8379529aa197a4ef5f5158870735.svg",
     "static/media/instagram.svg": "/Appittuneity_Homepage/static/media/instagram.1f8ebf319f789d24884dfe4b3aa86ed4.svg",
     "static/media/facebook.svg": "/Appittuneity_Homepage/static/media/facebook.05debd2f8b5e7bb951f1bde1f6f7e15c.svg",
+    "static/media/close.svg": "/Appittuneity_Homepage/static/media/close.0b6aee9d8d4593b752d4.svg",
     "static/media/hamburger.svg": "/Appittuneity_Homepage/static/media/hamburger.afea531a197708367154.svg",
-    "main.d9584e98.css.map": "/Appittuneity_Homepage/static/css/main.d9584e98.css.map",
-    "main.2faad0f2.js.map": "/Appittuneity_Homepage/static/js/main.2faad0f2.js.map"
+    "main.953b1cfa.css.map": "/Appittuneity_Homepage/static/css/main.953b1cfa.css.map",
+    "main.0ebdf220.js.map": "/Appittuneity_Homepage/static/js/main.0ebdf220.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9584e98.css",
-    "static/js/main.2faad0f2.js"
+    "static/css/main.953b1cfa.css",
+    "static/js/main.0ebdf220.js"
   ]
 }
