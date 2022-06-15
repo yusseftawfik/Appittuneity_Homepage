@@ -4,7 +4,7 @@
 			rgba(162, 51, 125, 0.9) 50.65%,
 			rgba(137, 31, 127, 0.9) 75.66%);
 	padding: 40px 110px;
-		overflow-x: hidden;
+	overflow-x: hidden;
 
 	hr {
 		border: 1px solid #FFFFFF
@@ -50,6 +50,19 @@
 				font-size: 20px;
 				font-weight: 700;
 				line-height: 23px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:1200px) {
+	.experince {
+		padding: 30px;
+		text-align: center;
+
+		main {
+			.first-section {
+				gap: 25px;
 			}
 		}
 	}

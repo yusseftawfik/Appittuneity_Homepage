@@ -48,3 +48,14 @@
 		}
 	}
 }
+
+@media only screen and (max-width:1200px) {
+	.fut {
+
+		.icons {
+			flex-wrap: wrap;
+			gap: 30px;
+			justify-content: center;
+		}
+	}
+}
