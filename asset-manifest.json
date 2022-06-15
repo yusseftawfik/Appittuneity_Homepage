@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Appittuneity_Homepage/static/css/main.5864c2fe.css",
+    "main.css": "/Appittuneity_Homepage/static/css/main.b42e2009.css",
     "main.js": "/Appittuneity_Homepage/static/js/main.1a7df8d1.js",
     "static/media/eye-study.svg": "/Appittuneity_Homepage/static/media/eye-study.cae6045b401b1ee7e748f1303a61f0d1.svg",
     "static/media/elexir.svg": "/Appittuneity_Homepage/static/media/elexir.9df5e49d7b16f24164284e286654dcef.svg",
@@ -46,11 +46,11 @@
     "static/media/facebook.svg": "/Appittuneity_Homepage/static/media/facebook.05debd2f8b5e7bb951f1bde1f6f7e15c.svg",
     "static/media/close.svg": "/Appittuneity_Homepage/static/media/close.0b6aee9d8d4593b752d4.svg",
     "static/media/hamburger.svg": "/Appittuneity_Homepage/static/media/hamburger.afea531a197708367154.svg",
-    "main.5864c2fe.css.map": "/Appittuneity_Homepage/static/css/main.5864c2fe.css.map",
+    "main.b42e2009.css.map": "/Appittuneity_Homepage/static/css/main.b42e2009.css.map",
     "main.1a7df8d1.js.map": "/Appittuneity_Homepage/static/js/main.1a7df8d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.5864c2fe.css",
+    "static/css/main.b42e2009.css",
     "static/js/main.1a7df8d1.js"
   ]
 }
