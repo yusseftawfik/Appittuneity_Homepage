@@ -4,9 +4,9 @@ import '../../styles/steps.scss';
 const Step = ({ data }) => {
 	return (
 		<div className='step'>
-			<div className='header'>
+			<div className='header' data-aos="flip-left">
 			</div>
-			<div className='data'>
+			<div className='data' data-aos="flip-right">
 				<div className='number'>
 					{data.number}
 				</div>
@@ -14,7 +14,7 @@ const Step = ({ data }) => {
 					{data.description}
 				</div>
 			</div>
-			<div className='title'>
+			<div className='title' data-aos="flip-left">
 				{data.title}
 			</div>
 		</div>

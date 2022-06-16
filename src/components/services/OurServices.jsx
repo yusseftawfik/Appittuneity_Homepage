@@ -67,9 +67,9 @@ const OurServices = () => {
 			<main>
 				{data.map((data) => (
 					<div className="data-holder" data-aos="zoom-out-up">
-						<span>{data.name}</span>
-						<span>{data.description}</span>
-						<img src={data.icon} alt="services-icon" width="45" height="45" />
+						<span data-aos="flip-down">{data.name}</span>
+						<span data-aos="flip-down">{data.description}</span>
+						<img data-aos="flip-down" src={data.icon} alt="services-icon" width="45" height="45" />
 					</div>
 				))}
 			</main>

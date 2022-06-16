@@ -8,19 +8,19 @@ const Steps = () => {
 		{
 			number: "1",
 			description:
-				"We at Appittuneity provide you with highly trained developers and testers, and enable you to interview and test them to choose.. More",
+				"We at Appittuneity provide you with highly trained developers and testers, and enable you to interview and test them to choose",
 			title: "Choose Testers and Developers.",
 		},
 		{
 			number: "2",
 			description:
-				"Since our professional testers have a long experience working with all testing techniques and procedures in various projects and.. More",
+				"Since our professional testers have a long experience working with all testing techniques and procedures in various projects and more",
 			title: "Integrate The Testers Team With Your Team.",
 		},
 		{
 			number: "3",
 			description:
-				"At Appittuneity, we provide you with the most flexible hiring model, where you can increase or decrease the number of testers and.. More",
+				"At Appittuneity, we provide you with the most flexible hiring model, where you can increase or decrease the number of testers and more",
 			title: "Increase or Decrease The Number Of Testers.",
 		},
 	];
