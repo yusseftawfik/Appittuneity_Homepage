@@ -39,9 +39,9 @@ const Hiring = () => {
 			<h1>Why hiring Dedicated Teams</h1>
 			<main>
 				{data.map((data) => (
-					<div className="data-holder" data-aos="fade-left">
-						<img src={data.icon} alt="hiring-icon" width="45" height="45" />
-						<span>{data.name}</span>
+					<div className="data-holder" data-aos="zoom-out-down">
+						<img src={data.icon} alt="hiring-icon" width="45" height="45" data-aos="flip-up" />
+						<span data-aos="flip-up">{data.name}</span>
 					</div>
 				))}
 			</main>

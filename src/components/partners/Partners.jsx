@@ -26,10 +26,10 @@ const Partners = () => {
 	];
 	return (
 		<div className="partners">
-			<div className="partners-container">
+			<div className="partners-container" data-aos="zoom-out">
 				{
 					data.map(data =>
-						<Partner data-aos="zoom-out" data={data} />
+						<Partner data={data} />
 					)
 				}
 			</div>

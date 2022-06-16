@@ -7,7 +7,7 @@ const FAQ = () => {
 			<h1>Frequently Asked Questiond</h1>
 			<main>
 				<div class="accordion accordion-flush" id="accordionFlushExample">
-					<div class="accordion-item">
+					<div class="accordion-item" data-aos="flip-up">
 						<h2 class="accordion-header" id="flush-headingOne">
 							<button
 								class="accordion-button collapsed"
@@ -35,7 +35,7 @@ const FAQ = () => {
 							</div>
 						</div>
 					</div>
-					<div class="accordion-item">
+					<div class="accordion-item" data-aos="flip-up">
 						<h2 class="accordion-header" id="flush-headingTwo">
 							<button
 								class="accordion-button collapsed"
@@ -62,7 +62,7 @@ const FAQ = () => {
 							</div>
 						</div>
 					</div>
-					<div class="accordion-item">
+					<div class="accordion-item" data-aos="flip-up">
 						<h2 class="accordion-header" id="flush-headingThree">
 							<button
 								class="accordion-button collapsed"
@@ -89,7 +89,7 @@ const FAQ = () => {
 							</div>
 						</div>
 					</div>
-					<div class="accordion-item">
+					<div class="accordion-item" data-aos="flip-up">
 						<h2 class="accordion-header" id="flush-headingFour">
 							<button
 								class="accordion-button collapsed"

@@ -4,7 +4,7 @@ import "../../styles/Ads.scss";
 const Ads = () => {
 	return (
 		<div className="ads">
-			<div>
+			<div data-aos="zoom-in-up">
 				<span>
 					Risk free deals allows you to trial your team before you hire them
 				</span>
@@ -15,7 +15,7 @@ const Ads = () => {
 					lacus vel facilisis.
 				</span>
 			</div>
-			<div>15+ years Of experience in the big Tech</div>
+			<div data-aos="zoom-in-up">15+ years Of experience in the big Tech</div>
 		</div>
 	);
 };

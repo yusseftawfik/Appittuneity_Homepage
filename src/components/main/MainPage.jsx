@@ -19,12 +19,12 @@ const MainPage = () => {
                     </div>
                 </main>
                 <footer>
-                    <p>
+                    <p data-aos="fade-up-right">
                         We have a talented team of professional web designers, developers, and
                         project managers worked in a harmonious manner To achieve the best
                         results on your bussiness at a resonable cost.
                     </p>
-                    <p>
+                    <p data-aos="fade-up-left">
                         Our team works in an agile/Scrum methodolgy, so every detail of your
                         requirements is recorded in the user story, and implementation
                         priorities are determined according to the priorities of your work,

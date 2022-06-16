@@ -9,7 +9,7 @@ const Experince = () => {
 			<main>
 				<hr />
 				<div className="first-section">
-					<div>
+					<div data-aos="fade-up-left">
 						<span>E-Commerce Website and Application</span>
 						<p>
 							If you want to achieve great success in selling your products, you
@@ -21,7 +21,7 @@ const Experince = () => {
 							stories in the field of e-commerce.
 						</p>
 					</div>
-					<div>
+					<div data-aos="fade-up-right">
 						<span>Supporting services for ecommerce websites.</span>
 						<p>
 							We can help you at Appittuneity by providing additional supporting
@@ -32,7 +32,7 @@ const Experince = () => {
 						</p>
 					</div>
 				</div>
-				<div>
+				<div data-aos="fade-up">
 					<span>E-Learning</span>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -41,7 +41,7 @@ const Experince = () => {
 						accumsan lacus vel facilisis..
 					</p>
 				</div>
-				<div className="footer">
+				<div className="footer" data-aos="fade-down">
 					<span>
 						Read more
 					</span>
